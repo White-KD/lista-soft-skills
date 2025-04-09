@@ -12,43 +12,64 @@
     <!-- Cabeçalho da página -->
     <h1>Exemplo de Listas em HTML</h1>
 
-<!-- duvido a professora ler isso -->
     <!-- Lista não ordenada (com marcadores) -->
     <ul>
-        <!-- Cada <li> representa um item da lista -->
-        <li>Comunicação eficaz</li>
-        <li>Trabalho em equipe</li>
-        <li>Empatia</li>
-        <li>Flexibilidade</li>
+        <li>Comunicação eficaz
+            <p>Capacidade de transmitir ideias de forma clara, objetiva e respeitosa.</p>
+        </li>
+        <li>Trabalho em equipe
+            <p>Colaborar com outras pessoas para alcançar objetivos em comum.</p>
+        </li>
+        <li>Empatia
+            <p>Habilidade de se colocar no lugar do outro e compreender seus sentimentos.</p>
+        </li>
+        <li>Flexibilidade
+            <p>Capacidade de se adaptar a mudanças e lidar com imprevistos.</p>
+        </li>
     </ul>
 
-    <br> <!-- Quebra de linha para separar as listas -->
+    <br>
 
     <!-- Lista ordenada (numerada) -->
     <ol>
-        <!-- Cada <li> representa um item numerado da lista -->
-        <li>Pensamento crítico</li>
-        <li>Resolução de problemas</li>
-        <li>Gestão do tempo</li>
-        <li>Adaptabilidade</li>
+        <li>Pensamento crítico
+            <p>Capacidade de analisar situações de forma lógica e tomar decisões fundamentadas.</p>
+        </li>
+        <li>Resolução de problemas
+            <p>Habilidade de identificar, analisar e propor soluções para desafios.</p>
+        </li>
+        <li>Gestão do tempo
+            <p>Organizar e priorizar tarefas para usar o tempo de forma produtiva.</p>
+        </li>
+        <li>Adaptabilidade
+            <p>Estar aberto a novas situações, tecnologias ou ideias com agilidade.</p>
+        </li>
     </ol>
 
-    <br> <!-- Outra quebra de linha para separar as listas -->
+    <br>
 
     <!-- Lista ordenada com uma lista não ordenada dentro de um item numerado -->
     <ol>
         <li>Liderança
-            <!-- Lista não ordenada dentro do item numerado -->
+            <p>Capacidade de guiar, inspirar e coordenar pessoas rumo a um objetivo.</p>
             <ul>
-                <!-- Subitens dentro da lista não ordenada -->
-                <li>Inspirar e motivar</li>
-                <li>Tomada de decisão</li>
+                <li>Inspirar e motivar
+                    <p>Incentivar a equipe a alcançar melhores resultados com entusiasmo.</p>
+                </li>
+                <li>Tomada de decisão
+                    <p>Analisar cenários e escolher a melhor alternativa com responsabilidade.</p>
+                </li>
             </ul>
         </li>
-        <!-- Itens principais sem subitens -->
-        <li>Autoconhecimento</li>
-        <li>Inteligência emocional</li>
+        <li>Autoconhecimento
+            <p>Compreender seus próprios sentimentos, limites e capacidades.</p>
+        </li>
+        <li>Inteligência emocional
+            <p>Gerenciar as próprias emoções e lidar bem com as emoções dos outros.</p>
+        </li>
     </ol>
 
 </body>
 </html>
+
+       
