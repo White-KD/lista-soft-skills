@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Definindo o tipo de codificação de caracteres (UTF-8) e o idioma da página (português do Brasil) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Definindo o título da página que aparece na aba do navegador -->
+    <title>Exemplo de Listas - Soft Skills</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <h1>Exemplo de Listas em HTML</h1>
+
+<!-- duvido a professora ler isso -->
+    <!-- Lista não ordenada (com marcadores) -->
+    <ul>
+        <!-- Cada <li> representa um item da lista -->
+        <li>Comunicação eficaz</li>
+        <li>Trabalho em equipe</li>
+        <li>Empatia</li>
+        <li>Flexibilidade</li>
+    </ul>
+
+    <br> <!-- Quebra de linha para separar as listas -->
+
+    <!-- Lista ordenada (numerada) -->
+    <ol>
+        <!-- Cada <li> representa um item numerado da lista -->
+        <li>Pensamento crítico</li>
+        <li>Resolução de problemas</li>
+        <li>Gestão do tempo</li>
+        <li>Adaptabilidade</li>
+    </ol>
+
+    <br> <!-- Outra quebra de linha para separar as listas -->
+
+    <!-- Lista ordenada com uma lista não ordenada dentro de um item numerado -->
+    <ol>
+        <li>Liderança
+            <!-- Lista não ordenada dentro do item numerado -->
+            <ul>
+                <!-- Subitens dentro da lista não ordenada -->
+                <li>Inspirar e motivar</li>
+                <li>Tomada de decisão</li>
+            </ul>
+        </li>
+        <!-- Itens principais sem subitens -->
+        <li>Autoconhecimento</li>
+        <li>Inteligência emocional</li>
+    </ol>
+
+</body>
+</html>
